@@ -1,11 +1,14 @@
-# Music Player
+# MelodyMack
+A music player built by Prosenjit Chandra Biswas.
+All songs are my favorite and most of the time I lisen. 
+### Music is power
 
-A music player built with **HTMLAudioElement** API and custom design.
 
-## Project Specifications
+
+## Project Details
 
 + Custom UI
-+ Song cover and other details are displayed
-+ Play and Pause
++ Song cover, Singer name display
++ Play, Pause and next 
 + Switch between songs
 
