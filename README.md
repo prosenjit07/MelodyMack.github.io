@@ -12,3 +12,6 @@ All songs are my favorite and most of the time I lisen.
 + Play, Pause and next 
 + Switch between songs
 
+
+### Note: Don't copy my souce code
+
