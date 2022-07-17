@@ -46,7 +46,7 @@ const songs = [
   {
     title: 'Saanso ko',
     artist: 'Arijit singh',
-    coverPath: 'assets/images/cover1.jpg',
+    coverPath: 'assets/images/zid.jpg',
     discPath: 'mp3/5.mp3',
     duration: '4:48',
   },
