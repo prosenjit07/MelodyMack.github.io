@@ -83,7 +83,7 @@ const songs = [
     title: 'Banjarra',
     artist: 'Mohammod Irfan',
     coverPath: 'assets/images/ek vilain.jfif',
-    discPath: 'mp3/10.mp3',
+    discPath: 'mp3/10.Mp3',
     duration: '4:30',
   },
   {
