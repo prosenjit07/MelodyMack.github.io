@@ -14,5 +14,5 @@ All songs are my favorite and most of the time I lisen.
 + Switch between songs
 
 
-### Note: Don't copy my source code
+### Note: Don't copy my source code. Use it for learning perpose.
 
