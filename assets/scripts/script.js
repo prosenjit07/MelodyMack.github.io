@@ -21,12 +21,20 @@ const songs = [
     duration: '4:30',
   },
   {
-    title: 'Khabhi Jo Badal',
+    title: 'Raaz Ankhain Teri',
     artist: 'Arijit singh',
-    coverPath: 'assets/images/jackpot.jfif',
-    discPath: 'mp3/2.mp3',
-    duration: '4:13',
+    coverPath: 'assets/images/raaz.jpg',
+    discPath: 'mp3/22.mp3',
+    duration: '4:45',
   },
+  {
+    title: 'Yaara',
+    artist: 'Arnab Datta',
+    coverPath: 'assets/images/yara.jpg',
+    discPath: 'mp3/23.mp3',
+    duration: '6:09',
+  },
+
   {
     title: 'Awargi',
     artist: 'Sangeet',
@@ -34,7 +42,27 @@ const songs = [
     discPath: 'mp3/3.mp3',
     duration: '4:32',
   },
-
+  {
+    title: 'Kuch Toh Haa',
+    artist: 'Amaan Molick',
+    coverPath: 'assets/images/kuch toh hain.jfif',
+    discPath: 'mp3/19.mp3',
+    duration: '4:08',
+  },
+  {
+    title: 'Main Dhoondnee ko',
+    artist: 'Arijit singh',
+    coverPath: 'assets/images/main.jfif',
+    discPath: 'mp3/9.mp3',
+    duration: '4:23',
+  },
+  {
+    title: 'Khabhi Jo Badal',
+    artist: 'Arijit singh',
+    coverPath: 'assets/images/jackpot.jfif',
+    discPath: 'mp3/2.mp3',
+    duration: '4:13',
+  },
   {
     title: 'Teri Galiya',
     artist: 'Sradha kapor',
@@ -64,6 +92,7 @@ const songs = [
     discPath: 'mp3/7.mp3',
     duration: '5:15',
   },
+
   {
     title: 'Tum hi Anna',
     artist: 'Jubin Nautiyal',
@@ -71,90 +100,76 @@ const songs = [
     discPath: 'mp3/8.mp3',
     duration: '4:27',
   },
-
-  {
-    title: 'Main Dhoondnee ko',
-    artist: 'Arijit singh',
-    coverPath: 'assets/images/main.jfif',
-    discPath: 'mp3/9.mp3',
-    duration: '4:30',
-  },
   {
     title: 'Banjarra',
     artist: 'Mohammod Irfan',
     coverPath: 'assets/images/ek vilain.jfif',
     discPath: 'mp3/10.Mp3',
-    duration: '4:30',
+    duration: '5:36',
   },
   {
     title: 'Teri Galiyaan',
     artist: 'Ankit Tiwari',
     coverPath: 'assets/images/galiyaan.jfif',
     discPath: 'mp3/11.mp3',
-    duration: '4:30',
+    duration: '5:41',
   },
   {
     title: 'Main Adhori',
     artist: 'Akansha Sharma',
     coverPath: 'assets/images/main adhori.jpg',
     discPath: 'mp3/12.mp3',
-    duration: '4:30',
+    duration: '4:01',
   },
   {
     title: 'Baatein Ye Khabi Ne',
     artist: 'Sreyaa Ghosal',
     coverPath: 'assets/images/batein.jpg',
     discPath: 'mp3/13.mp3',
-    duration: '4:30',
+    duration: '4:49',
   },
   {
     title: 'Khamosiyaan',
     artist: 'Arijit singh',
     coverPath: 'assets/images/khamosiyaan.jfif',
     discPath: 'mp3/14.mp3',
-    duration: '4:30',
+    duration: '5:35',
   },
   {
     title: 'Hamdard',
     artist: 'Arijit singh',
     coverPath: 'assets/images/humdard.jfif',
     discPath: 'mp3/15.mp3',
-    duration: '4:30',
+    duration: '4:20',
   },
   {
     title: 'O khudaa',
     artist: 'Amaal Molick',
     coverPath: 'assets/images/o khuda.jfif',
     discPath: 'mp3/16.mp3',
-    duration: '4:30',
+    duration: '5:07',
   },
   {
     title: 'Ishq Wali Love',
     artist: 'Shekhar Ravjiani & Salim',
     coverPath: 'assets/images/ishq.jpg',
     discPath: 'mp3/17.mp3',
-    duration: '4:30',
+    duration: '4:18',
   },
   {
     title: 'Khabhi Aynee Mein',
     artist: 'Jay Bahnushali',
     coverPath: 'assets/images/kbhi.jpg',
     discPath: 'mp3/18.mp3',
-    duration: '4:30',
+    duration: '4:40',
   },
-  {
-    title: 'Kuch Toh Haa',
-    artist: 'Amaan Molick',
-    coverPath: 'assets/images/kuch toh hain.jfif',
-    discPath: 'mp3/19.mp3',
-    duration: '4:30',
-  },
+
   {
     title: 'Tum Hi Ho',
     artist: 'Arijit singh',
     coverPath: 'assets/images/tum hi ho.jfif',
     discPath: 'mp3/20.mp3',
-    duration: '4:30',
+    duration: '4:22',
   },
   {
     title: 'Assan Nahin Yahan',
@@ -168,7 +183,6 @@ const songs = [
 
 // Load song initially
 loadSong(songs[songIndex]);
-
 // Load the given song
 function loadSong(song) {
   cover.src = song.coverPath;
