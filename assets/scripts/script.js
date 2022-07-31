@@ -27,13 +27,6 @@ const songs = [
     discPath: 'mp3/22.mp3',
     duration: '4:45',
   },
-  {
-    title: 'Yaara',
-    artist: 'Arnab Datta',
-    coverPath: 'assets/images/yara.jpg',
-    discPath: 'mp3/23.mp3',
-    duration: '6:09',
-  },
 
   {
     title: 'Awargi',
@@ -42,6 +35,14 @@ const songs = [
     discPath: 'mp3/3.mp3',
     duration: '4:32',
   },
+    {
+    title: 'Yaara',
+    artist: 'Arnab Datta',
+    coverPath: 'assets/images/yara.jpg',
+    discPath: 'mp3/23.mp3',
+    duration: '6:09',
+  },
+
   {
     title: 'Kuch Toh Haa',
     artist: 'Amaan Molick',
