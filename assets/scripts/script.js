@@ -38,7 +38,7 @@ const songs = [
   {
     title: 'Hymn for the weekend',
     artist: 'Coldplay',
-    coverPath: 'assets/images/love games.jfif',
+    coverPath: 'assets/images/coldplay.jpg',
     discPath: 'mp3/24.mp3',
     duration: '4:20',
   },
