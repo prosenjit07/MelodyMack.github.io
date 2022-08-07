@@ -35,6 +35,13 @@ const songs = [
     discPath: 'mp3/3.mp3',
     duration: '4:32',
   },
+  {
+    title: 'Hymn for the weekend',
+    artist: 'Coldplay',
+    coverPath: 'assets/images/love games.jfif',
+    discPath: 'mp3/24.mp3',
+    duration: '4:20',
+  },
     {
     title: 'Yaara',
     artist: 'Arnab Datta',
